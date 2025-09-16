@@ -1,8 +1,9 @@
 print("hello python")
 print("just trying out git")
-for value in range(0, 10, 2):
-  if value == 8:
+values = range(0, 10, 2)
+for value in values:
+  if values.index(value) == len(values) - 1:
     print(value)
   else:
     print(value, end=', ')
-print("this is version 3")
+print("this is version 4")
